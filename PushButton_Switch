@@ -1,0 +1,14 @@
+switch (BPAXs) {
+  case 0: 
+      if(BPAX==1)
+      {BPAXs=1;
+      i2c.put(BPAX);}
+    break;
+  case 1:
+      if(BPAX==0)
+      {BPAXs=0;}
+    break;
+  default:
+    BPAXs=0;
+    break;
+    }
